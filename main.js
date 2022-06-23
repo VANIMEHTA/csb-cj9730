@@ -1,31 +1,4 @@
-// const submitPage = document.getElementById("submit");
-// const successPage = document.getElementById("success");
-// const submitBtn = document.querySelector("submitBUTTON");
 
-// const submittedRating = document.getElementById("submitted-rating");
-
-// let ratingValue;
-
-// submitBtn.addEventListener("click", (e) => {
-//   const checked = document.querySelector('input[name="ratings"]:checked');
-
-//   if (checked == null) {
-//     console.log("null");
-//   } else {
-//     ratingValue = checked.value;
-
-//     // toggle current card page
-//     submitPage.classList.add("hide");
-
-//     // toggle success page
-//     successPage.classList.remove("hide");
-
-//     // set submitted rating
-//     submittedRating.innerText = ratingValue;
-//   }
-
-//   return ratingValue;
-// });
 
 const submit1 = document.querySelector(".submit-button");
 const submitPage = document.getElementById("submitPage");
